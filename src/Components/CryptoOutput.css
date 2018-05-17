@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+.CryptoOutput{
+  background-color: white;
+  border: 1px solid #7ab8ce;
+  box-sizing: border-box;
+  padding: 25px;
+  margin: 15px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.CryptoOutput > h1{
+  font-weight: bold;
+  font-size: 2.1em;
+  margin: 10px;
+  color: #7ab8ce;
+}
+.price{
+  opacity: .5;
+  margin: 10px;
+}
+.symbol{
+  margin: 10px;
+  font-weight: bold;
+  color: #7ab8ce;
+}
