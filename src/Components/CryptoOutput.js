@@ -9,6 +9,7 @@ const CryptoOutput = props => {
    <h1>{props.crypto}</h1>
    <p className="price">{props.price}$</p>
    <p className="symbol">{props.symbol}</p>
+   <p className="index">{props.index}</p>
    </div>
    </Col>
   );

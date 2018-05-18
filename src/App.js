@@ -39,12 +39,13 @@ class App extends Component {
     let cryptoOutput = null;
     if(this.state.cryptoList.length>0){
       cryptoOutput = (
-        this.state.cryptoList.map((obj)=>{
+        this.state.cryptoList.map((obj, index)=>{
           return <CryptoOutput 
           key={obj.id}
           crypto={obj.name}
           price={obj.quotes.USD.price}
           symbol={obj.symbol}
+          index={index + 1}
           />
         })
       )
